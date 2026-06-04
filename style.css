@@ -1,6 +1,6 @@
 body {
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
-    background-color: #f4f4f9;
+    font-family: 'MyCustomFont';
+    src: url('./fonts/ComicSansMS3.ttf') format('truetype');
     color: #333;
     text-align: center;
     padding: 50px;
