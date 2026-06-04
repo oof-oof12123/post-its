@@ -1,8 +1,9 @@
-@fontface {
+@font-face {
     font-family: 'comicsans';
     src: url('main/ComicSansMS3.ttf') format('truetype');
 }
 body {
+    font-family: 'comicsans', sans-serif;
     color: #333;
     text-align: center;
     padding: 50px;
