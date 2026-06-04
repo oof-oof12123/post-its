@@ -1,13 +1,15 @@
 @font-face {
-    font-family: 'comicsans';
-    src: url('./ComicSansMS3.ttf') format('truetype');
+  font-family: 'comicsans';
+  src: url('./ComicSansMS3.ttf') format('truetype');
 }
+
 body {
-    font-family: 'comicsans', sans-serif;
-    color: #333;
-    text-align: center;
-    padding: 50px;
+  font-family: 'comicsans', sans-serif;
+  color: #333;
+  text-align: center;
+  padding: 50px;
 }
+
 
 header {
     background-color: #007acc;
