@@ -1,6 +1,3 @@
-document.getElementById('alertBtn').addEventListener('click', function() {
-    alert('clicked it didnt ya');
-});
 const messages = [];
 
 app.post("/add-message", (req, res) => {
