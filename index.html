@@ -1,19 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>hello markiplier</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>borek pisum (lorem ipsum lil brother)</h1>
-    </header>
-    <main>
-        <p>lorem ipsum</p>
-        <button id="alertBtn">Click Me</button>
-    </main>
+    <h1>Guestbook</h1>
+
+    <input type="text" id="name" placeholder="Your name">
+    <input type="text" id="message" placeholder="Your message">
+
+    <button onclick="submitMessage()">Submit</button>
+
+    <h2>Messages</h2>
+    <div id="guestbook"></div>
+
     <script src="script.js"></script>
 </body>
 </html>
