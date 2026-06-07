@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Guestbook</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Guestbook</h1>
+
+    <div class="form">
+        <input
+            id="name"
+            placeholder="Your name"
+        >
+
+        <textarea
+            id="message"
+            placeholder="Write a message..."
+        ></textarea>
+
+        <button onclick="submitMessage()">
+            Submit
+        </button>
+    </div>
+
+    <h2>Messages</h2>
+
+    <div id="guestbook"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
